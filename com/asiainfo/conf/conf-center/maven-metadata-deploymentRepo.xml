@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.asiainfo.conf</groupId>
+  <artifactId>conf-center</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160608051547</lastUpdated>
+  </versioning>
+</metadata>
