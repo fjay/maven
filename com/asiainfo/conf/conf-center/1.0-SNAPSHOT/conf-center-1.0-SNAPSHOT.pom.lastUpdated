@@ -1,0 +1,10 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Sep 30 11:37:47 CST 2016
+default-https\://raw.github.com/${github_account}/maven/snapshot/.lastUpdated=1475206627154
+https\://raw.github.com/${github_account}/maven/snapshot/.error=Could not transfer artifact com.asiainfo.conf\:conf-center\:pom\:1.0-SNAPSHOT from/to haoch-maven-snapshot-repository (https\://raw.github.com/${github_account}/maven/snapshot/)\: Illegal character in path at index 24\: https\://raw.github.com/${github_account}/maven/snapshot/com/asiainfo/conf/conf-center/1.0-SNAPSHOT/conf-center-1.0-SNAPSHOT.pom
+https\://raw.github.com/fjay/maven/snapshot/.lastUpdated=1475206641413
+default-https\://raw.github.com/${github_account}/maven/release/.lastUpdated=1475206627157
+https\://raw.github.com/${github_account}/maven/release/.error=Could not transfer artifact com.asiainfo.conf\:conf-center\:pom\:1.0-SNAPSHOT from/to haoch-maven-release-repository (https\://raw.github.com/${github_account}/maven/release/)\: Illegal character in path at index 24\: https\://raw.github.com/${github_account}/maven/release/com/asiainfo/conf/conf-center/1.0-SNAPSHOT/conf-center-1.0-SNAPSHOT.pom
+https\://raw.github.com/fjay/maven/snapshot/.error=
+https\://raw.github.com/fjay/maven/release/.lastUpdated=1475206667493
+https\://raw.github.com/fjay/maven/release/.error=
