@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.asiainfo.common</groupId>
+        <artifactId>asiainfo-common</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>asiainfo-util</artifactId>
+    <version>${asiainfo-util.version}</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!--for Log util-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+            <optional>true</optional>
+        </dependency>
+        <!--for JsonUtil-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.7</version>
+            <optional>true</optional>
+        </dependency>
+        <!--for PersistentBlockingQueue-->
+        <dependency>
+            <groupId>com.bluejeans.common</groupId>
+            <artifactId>bigqueue</artifactId>
+            <version>1.7.0.5</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.zbus</groupId>
+            <artifactId>zbus</artifactId>
+            <version>6.3.2</version>
+            <optional>true</optional>
+        </dependency>
+        <!--for PersistentMap-->
+        <dependency>
+            <groupId>com.ctriposs.sdb</groupId>
+            <artifactId>sessdb</artifactId>
+            <version>1.0.0</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.xerial.snappy</groupId>
+            <artifactId>snappy-java</artifactId>
+            <version>1.1.2</version>
+            <optional>true</optional>
+        </dependency>
+        <!--for ValidatorUtil-->
+        <dependency>
+            <groupId>net.sf.oval</groupId>
+            <artifactId>oval</artifactId>
+            <version>1.85</version>
+            <optional>true</optional>
+        </dependency>
+        <!--for ScanUtil-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.nutz</groupId>
+            <artifactId>nutz</artifactId>
+            <version>1.r.55</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
